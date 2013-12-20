@@ -1,0 +1,29 @@
+/*
+ * style.css
+ *
+ * Stylesheet for watch/play page
+ *
+ * Copyright (C) 2013 Ben Murrell
+ */
+
+.watch-button {
+  text-align: center;
+  font-size: 25vh;
+  font-family: arial,sans-serif;
+  margin: 10vh 40 10vh 40;
+}
+
+.watch-button a{
+  padding: 20 20 20 20;
+}
+
+.play-button {
+  text-align: center;
+  font-size: 25vh;
+  font-family: arial,sans-serif;
+  margin: 40 40 40 40;
+}
+
+.play-button a{
+  padding: 20 20 20 20;
+}

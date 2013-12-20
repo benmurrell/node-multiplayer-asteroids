@@ -1,0 +1,98 @@
+/*
+ * style.css
+ *
+ * Stylesheet for control client
+ *
+ * Copyright (C) 2013 Ben Murrell
+ */
+
+body {
+    margin: 0;
+}
+
+.leftButton {
+    position: absolute;
+    height: 30%;
+    width: 20%;
+
+    top: 70%;
+    left: 0;
+
+    background-color: green;
+}
+
+.rightButton {
+    position: absolute;
+    height: 30%;
+    width: 20%;
+
+    top: 70%;
+    left: 80%;
+
+    background-color: green;
+}
+
+.thrusterButton {
+    position: absolute;
+    height: 30%;
+    width: 30%;
+
+    top: 70%;
+    left: 20%;
+
+    background-color: blue;
+}
+
+.shootButton {
+    position: absolute;
+    height: 30%;
+    width: 30%;
+
+    top: 70%;
+    left: 50%;
+
+    background-color: yellow;
+}
+
+.respawnCountdown {
+    position: absolute;
+    font-size: 50vh;
+    text-align: center;
+}
+
+
+/*
+ * Begin copy-pasta from visualizer stylesheet
+ */
+.player-red {
+    background-image: url('/vis/resources/images/player-red.png');
+    background-size: 100% auto;
+    height: 48px;
+    width: 48px;
+}
+
+.accelerating {
+    background-color: red;
+    position: absolute;
+}
+
+.player-name {
+    text-align: center;
+}
+
+.health-container {
+    margin: 2px 0 0 0;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    position: absolute;
+
+    width: 100%;
+    height: 5%;
+}
+
+.health-bar {
+    background-color: green;
+    height: 100%;
+}

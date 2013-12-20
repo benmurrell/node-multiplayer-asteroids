@@ -1,0 +1,27 @@
+////////////////////////////////////////////////////////////////////////////////
+// merge.js
+//
+// Merge utility function
+//
+// Copyright (C) 2013 Ben Murrell
+////////////////////////////////////////////////////////////////////////////////
+
+( function() {
+
+////////////////////////////////////////////////////////////////////////////////
+// Merge the two objects so that aDefaults contains all of aOverrides
+////////////////////////////////////////////////////////////////////////////////
+var merge = function( aDefaults, aOverrides ) {
+    for( key in aOverrides ) {
+        aDefaults[key] = aOverrides[key];
+    }
+};
+
+// Export the function depending on what environment we're in
+if( typeof( module ) === 'object' ) {
+    module.exports = merge;
+} else {
+    window.merge = merge;
+}
+
+})();
